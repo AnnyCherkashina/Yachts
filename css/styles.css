@@ -62,7 +62,7 @@ body {
     font-family: "Montserrat", sans-serif;
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
-    background-image: url(../images/mobile/baner.jpg);
+    background-image: url(../);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
