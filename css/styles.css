@@ -62,7 +62,7 @@ body {
     font-family: "Montserrat", sans-serif;
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
-    background-image: url(../);
+    background-image: url(../images/hero/baner.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -128,3 +128,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
         background-image: url("../images/hero/hero-desctop@2x.jpg");
     }
 }
+
+/* ====Header==== */
+
+
+.
+/* ====/Header==== */
+2x
