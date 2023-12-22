@@ -54,7 +54,7 @@
                     </svg>
                 </li class="header-social-item">
             </ul>
-            <button class="burger" type="button" aria-label="toggle menu button">
+            <button class="burger js-open-menu" type="button" aria-label="open mobile menu-icon">
                 <svg class="burger-svg" width="28" height="28">
                     <use href="./images/icons.svg#icon-ci_menu"></use>
                 </svg>
@@ -63,9 +63,10 @@
     </header>
     <main>
         <!-- ========section Hero========= -->
-        <section class="hero-section">
-            <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
-            <p>Experience the freedom and luxury of yachting on the open seas. Choose from our top-of-the-line yachts
+        <section class="hero-section container">
+            <h1 class="hero-title">Explore the High Seas with Our Luxury Yacht Rentals</h1>
+            <p class="hero-text">Experience the freedom and luxury of yachting on the open seas. Choose from our
+                top-of-the-line yachts
                 and embark on an
                 unforgettable journey surrounded by breathtaking views and state-of-the-art amenities.</p>
             <button class="hero-batton" type="button">
@@ -75,16 +76,18 @@
         <!-- ========/section Hero========= -->
         <!-- ========section About Us========= -->
         <section class="about-us-section">
-            <div>
-                <div>
-                    <div>
-                        <h2>YachtJet fleet is here to take you on the ultimate adventure</h2>
-                        <div>
-                            <p>From spacious decks to state-of-the-art technology, our yachts are designed to provide
+            <div class="container">
+                <div class="about-us-container">
+                    <div class="about-us-container-title">
+                        <h2 class="about-us-title">YachtJet fleet is here to take you on the ultimate adventure</h2>
+                        <div class="about-us-container-text">
+                            <p class="about-us-text">From spacious decks to state-of-the-art technology, our yachts are
+                                designed to provide
                                 the perfect blend of luxury and
                                 functionality.
                             </p>
-                            <p>Take a look at our selection below and choose the yacht that matches your needs and
+                            <p class="about-us-text-litel">Take a look at our selection below and choose the yacht that
+                                matches your needs and
                                 preferences.No matter which yacht
                                 you choose, our experienced crew will ensure that your journey is smooth and enjoyable.
                                 Book now and get ready for an
@@ -92,7 +95,7 @@
                             </p>
                         </div>
                     </div>
-                    <picture>
+                    <picture class="about-us-images">
                         <source
                             srcset="./images/about-us/about-us-desctop.jpg 1x, ./images/about-us/about-us-desctop@2x.jpg 2x"
                             media="(min-width:1440px)" />
@@ -106,18 +109,19 @@
                         <source
                             srcset="./images/about-us/about-us-mobile.jpg 1x, ./images/about-us/about-us-mobile@2x.jpg 2x"
                             media="(max-width:767px)" />
-                        <img src="./images/about-us/about-us-mobile.jpg" alt="yacht">
+                        <img class="about-us-img" src="./images/about-us/about-us-mobile.jpg" alt="yacht">
                     </picture>
                 </div>
             </div>
         </section>
         <!-- ========/section About Us========= -->
         <!-- =======section Our Yachts===== -->
-        <section class="our-yachts-section">
-            <h2>Choose your dream yacht and sail away into the sunset</h2>
-            <ul>
-                <li>
-                    <picture>
+        <section class="our-yachts-section container">
+
+            <h2 class="our-yachts-title">Choose your dream yacht and sail away into the sunset</h2>
+            <ul class="our-yachts-menu list">
+                <li class="our-yachts-item-arrow">
+                    <picture class="our-yachts-arrow-picture">
                         <source
                             srcset="./images/our-yahts/our-yachts-arrow/our-yahts-desctop.jpg 1x, ./images/our-yahts/our-yachts-arrow/our-yahts-desctop@2x.jpg 2x"
                             media="(min-width: 1440px)" />
@@ -130,10 +134,11 @@
                         <source
                             srcset="./images/our-yahts/our-yachts-arrow/our-yahts-mobile.jpg 1x, ./images/our-yahts/our-yachts-arrow/our-yahts-mobile@2x.jpg 2x"
                             media="(max-width:767px)" />
-                        <img src="./images/our-yahts/our-yachts-arrow/our-yahts-mobile.jpg" alt="our yahts">
+                        <img class="our-yachts-arrow-img" src="./images/our-yahts/our-yachts-arrow/our-yahts-mobile.jpg"
+                            alt="our yahts">
                     </picture>
 
-                    <table>
+                    <table class="our-yachts-table-arrow">
                         <tr>
                             <td>Arrow</td>
                             <td>LUXURY YAHTS</td>
@@ -160,8 +165,8 @@
                         </tr>
                     </table>
                 </li>
-                <li>
-                    <picture>
+                <li class="our-yachts-item-benitti">
+                    <picture class="our-yachts-item-benitti-picture">
                         <source
                             srcset="./images/our-yahts/our-yachts-benetti/bennita-desctop.jpg 1x, ./images/our-yahts/our-yachts-benetti/bennita-desctop@2x.jpg 2x"
                             media="(min-width: 1440px)" />
@@ -172,9 +177,10 @@
                         <source
                             srcset="./images/our-yahts/our-yachts-benetti/bennita-tablet.jpg 1x, ./images/our-yahts/our-yachts-benetti/bennita-tablet@2x.jpg 2x"
                             media="(min-width: 768px)" />
-                        <img src="./images/our-yahts/our-yachts-benetti/bennita-tablet.jpg" alt="our-yachts-benetti">
+                        <img class="our-yachts-item-benitti-img"
+                            src="./images/our-yahts/our-yachts-benetti/bennita-tablet.jpg" alt="our-yachts-benetti">
                     </picture>
-                    <table>
+                    <table class="our-yachts-item-benitti-table">
                         <tr>
                             <td>BENETTI OASIS 40M BO122</td>
                             <td>LUXURY YAHTS</td>
@@ -201,16 +207,18 @@
                         </tr>
                     </table>
                 </li>
-                <li>
-                    <picture>
+                <li class="our-yachts-item-bella-anna">
+                    <picture class="our-yachts-item-bella-anna-picture">
                         <source
                             srcset="./images/our-yahts/our-yachts-bella_anna/bella_anna-desctop.jpg 1x, ./images/our-yahts/our-yachts-bella_anna/bella_anna-desctop@2x.jpg 2x"
                             media="(min-width: 1440px)" />
                         <source
                             srcset="./images/our-yahts/our-yachts-bella_anna/bella_anna-desctop-min.jpg 1x, ./images/our-yahts/our-yachts-bella_anna/bella_anna-desctop-min@2x.jpg 2x"
                             media="(min-width: 1280px)" />
+                        <img class="our-yachts-item-bella-anna-img"
+                            src="./images/our-yahts/our-yachts-bella_anna/bella_anna-desctop-min.jpg" alt="yachts">
                     </picture>
-                    <table>
+                    <table class="our-yachts-item-bella-anna-tablet">
                         <tr>
                             <td>BELLE ANNA</td>
                             <td>LUXURY YAHTS</td>
@@ -238,14 +246,14 @@
                     </table>
                 </li>
             </ul>
-            <button type="button">
-                <a href="">Yacht rental</a>
+            <button class="our-yachts-btn" type="button">
+                <a class="our-yachts-link link" href="">Yacht rental</a>
             </button>
         </section>
         <!-- =======/section Our Yachts===== -->
         <!-- ----section-Advantages=== -->
-        <section>
-            <div>
+        <!-- <section>
+            <div class="container">
                 <h2 class="visually-hidden">Advantages</h2>
                 <ol>
                     <li>
@@ -283,10 +291,10 @@
                     <img src="./images/advantages/advantages-mobile.jpg" alt=" advantages yahts">
                 </picture>
             </div>
-        </section>
+        </section> -->
         <!-- ======/section-Advantages=== -->
         <!-- =====section Rent A Yacht===== -->
-        <section class="rent-a-yuacht-section">
+        <!-- <section class="rent-a-yuacht-section">
             <div class="container">
                 <div>
                     <div>
@@ -328,10 +336,10 @@
 
             </div>
 
-        </section>
+        </section> -->
         <!-- =====/section Rent A Yacht===== -->
         <!-- ====section Reviews===== -->
-        <section class="reviews-section">
+        <!-- <section class="container coreviews-section ">
             <h2>YachtJet take pride in providing the best possible service and experience to our customers</h2>
             <p>Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on
                 to find out
@@ -379,11 +387,11 @@
                     </div>
                 </li>
             </ul>
-        </section>
+        </section> -->
         <!-- ====/section Reviews===== -->
     </main>
     <!-- ====footer==== -->
-    <footer class="container">
+    <!-- <footer class="container">
         <div>
             <div>
                 <a href="">yachtjet</a>
@@ -443,7 +451,64 @@
                 <a href="">Privacy Police</a>
             </div>
         </div>
-    </footer>
+    </footer> -->
+    <!-- ====Mobile-menu==== -->
+    <div class="mobile-menu-container js-menu-container">
+        <div class="header-container">
+            <a class="logo-header link" href="">yachtjet</a>
+            <button class="mobile-menu-container-close-btn js-close-menu" type="button"
+                aria-label="open mobile menu-icon">
+                <svg class="mobile-menu-container-close-btn-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-close_sharp"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="">
+            <nav class="naigation-mobile-menu">
+                <ul class="novigation-mobile-menu list">
+                    <li class="novigation-mobile-item">
+                        <a class="novigation-mobile-link link" href="">About</a>
+                    </li>
+                    <li class="novigation-mobile-item">
+                        <a class="novigation-mobile-link link" href="">Yachts</a>
+                    </li>
+                    <li class="novigation-mobile-item">
+                        <a class="novigation-mobile-link link" href="">Reviews</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <ul class="mobile-social-menu list">
+                <li class="mobile-social-item">
+                    <a class="social-link-mobile-menu" href="">
+                        <svg class="mobile-svg-social" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+
+                </li>
+                <li class="mobile-social-item">
+                    <a class="social-link-mobile-menu" href="">
+                        <svg class="mobile-svg-social" width="24" height="24">
+                            <use href="./images/icons.svg#icon-youtube"></use>
+                        </svg>
+                    </a>
+
+                </li>
+                <li class="mobile-social-item">
+                    <a class="social-link-mobile-menu" href="">
+                        <svg class="mobile-svg-social" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+
+                </li class="mobile-social-item">
+            </ul>
+
+        </div>
+
+    </div>
+    <!-- ====/Mobile-menu==== -->
     <script src="./js/modal.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
