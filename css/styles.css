@@ -14,7 +14,7 @@ h5,
 h6,
 p {
     padding: 0;
-    margin: 0 a;
+    margin: ;
 }
 
 ul,
@@ -22,6 +22,7 @@ OL {
     padding-left: 0;
     /* margin-bottom: 0; */
     margin-top: 0;
+    /* display: flex; */
 }
 
 label {
@@ -300,6 +301,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
 /* =======section Our Yachts==== */
 .our-yachts-section {
     margin-top: 80px;
+    text-align: center;
 }
 
 .our-yahts-title {
@@ -335,7 +337,244 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
     display: none;
 }
 
+.our-yachts-table {
+    padding: 32px 16px 0 16px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+
+}
+
+
+.our-yahts-tablet-colum-name {
+    color: var(--accent-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 118%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.our-yahts-tablet-colum-class {
+    color: #040306;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.our-yahts-tablet-one {
+    color: #040306;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.our-yahts-tablet-two {
+    color: #040306;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+}
+
+.our-yahts-tablet-colum-name,
+.our-yahts-tablet-colum-class {
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+    margin-right: 1;
+}
+
+.our-yahts-tablet-colum-name::after,
+.our-yahts-tablet-colum-class::after {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgba(4, 3, 6, 0.1);
+}
+
+.our-yahts-tablet-one {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.our-yahts-line {
+    text-align: start;
+}
+
+.our-yachts-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    padding: 14px 32px;
+    margin-top: 20px;
+}
+
+.our-yachts-link {
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+
+}
+
 /* =======/section Our Yachts==== */
+/* =========section Advantages===== */
+.advantages {
+    margin-top: 80px;
+}
+
+.advantages-menu {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    background: var(--accent-color);
+    padding: 20px;
+}
+
+.advantages-img {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    background-repeat: repeat;
+}
+
+.advantages-text-numer {
+    color: #FBFBFB;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+}
+
+.advantages-text {
+    margin-top: 0;
+    color: var(--primary-text-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+
+.advantages-text-number {
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 36px;
+    margin-bottom: 0;
+}
+
+.advantages-text-number::after {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    width: 240px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+}
+
+/* =========/section Advantages===== */
+/* ======section Rent A Yacht======= */
+.rent-a-yuacht-section {
+    text-align: center;
+}
+
+.rent-yuaht-container-input {
+    margin-bottom: 18px;
+}
+
+.contact-form-input {
+    width: 100%;
+    height: 42px;
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.20);
+    outline: 0px solid transparent;
+    background-color: transparent;
+    padding-top: 14px;
+    padding-left: 18px;
+    padding-bottom: 14px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: rgba(251, 251, 251, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17em;
+
+}
+
+.contact-form-input:hover,
+.contact-form-input:focus {
+    color: var(--primary-text-color);
+    border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.rent-yuaht-texterea {
+    width: 100%;
+    height: 108px;
+    font-size: 12px;
+    line-height: 1.16;
+    color: rgba(251, 251, 251, 0.4);
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    background-color: transparent;
+    padding-left: 18px;
+    padding-top: 14px;
+    outline: transparent;
+    resize: none;
+    transition: border-color var(--default-transition-properties);
+}
+
+.rent-yuaht-texterea:hover,
+.rent-yuaht-texterea:focus {
+    color: var(--primary-text-color);
+    border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.reviev-form-submit-btn {
+    border: none;
+    display: block;
+    min-width: 121px;
+    height: 46px;
+    padding: 14px 44px;
+    border-radius: 15px;
+    background-color: var(--accent-color);
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 80px;
+}
+
+.reviev-form-submit-btn:hover,
+.reviev-form-submit-btn:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-text-color);
+}
+
+.rent-yahts-img {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    background-repeat: repeat;
+}
+
+/* ======/section Rent A Yacht======= */
 
 /* Mobile Menu */
 @media screen and (max-width: 767px) {
