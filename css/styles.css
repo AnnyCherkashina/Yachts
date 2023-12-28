@@ -13,8 +13,8 @@ h4,
 h5,
 h6,
 p {
-    padding: ;
-    margin: ;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
@@ -312,7 +312,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
     letter-spacing: -0.02em;
 }
 
-.our-yachts-menu {
+
+.our-yachts-item-arrow {
     background: var(--primary-text-color);
     border-radius: 24px;
     padding: 16px;
@@ -767,7 +768,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
     letter-spacing: 0.03em;
 }
 
-/* @media (min-width: 767px) {
+@media (min-width: 767px) {
 
     .logo-footer,
     .footer-social-menu,
@@ -775,7 +776,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
         order: unset;
         width: auto;
     }
-} */
+}
 
 /* ======/footer===== */
 
@@ -809,9 +810,61 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
 
     }
 
-    .novigation-mobile-link {
+    .menu-content {
+
+        margin-top: 201px;
+        position: relative;
+    }
+
+    .naigation-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .novigation-mobile-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 4px;
+    }
+
+    .novigation-mobile-item {
+        padding: 15px 24px;
         border-radius: 8px;
         background: rgba(27, 65, 75, 0.50);
+    }
+
+    .novigation-mobile-link {
+        color: var(--primary-text-color);
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 130%;
+        text-transform: uppercase;
+
+
+    }
+
+    .social-icons-container {
+
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 500px;
+
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 100%;
+
+    }
+
+    .mobile-social-menu {
+        display: flex;
+        gap: 8px;
+    }
+
+    .mobile-svg-social {
+        fill: var(--primary-text-color);
     }
 }
 
@@ -822,3 +875,427 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
 }
 
 /* /Mobile Menu */
+/* ======TABLET===== */
+@media screen and (min-width: 768px) {
+    .naigation-hedar {
+        display: flex;
+    }
+
+    .header-social-menu {
+        display: flex;
+
+    }
+
+    .burger {
+        display: none;
+    }
+
+    /* ======header===== */
+    .header-container {
+        padding: 4px 28px;
+    }
+
+    .logo-header {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+    }
+
+    .novigation-header-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 4px;
+    }
+
+    .novigation-header-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 91px;
+        height: 40px;
+        padding: 15px 24px;
+        border-radius: 8px;
+        background: rgba(27, 65, 75, 0.50);
+
+    }
+
+    .novigation-header-item:hover,
+    .novigation-header-item:focus {
+        background: var(--accent-color);
+    }
+
+    .novigation-header-link {
+        color: #FBFBFB;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 130%;
+        text-transform: uppercase;
+    }
+
+    .header-social-menu {
+        column-gap: 8px;
+    }
+
+    .header-svg-social {
+        fill: var(--accent-color);
+    }
+
+    /* ======/header===== */
+    /* ========section Hero======= */
+    .hero-section {
+        margin-top: 265px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        font-weight: 500;
+        line-height: 70px;
+        letter-spacing: -0.02em;
+    }
+
+    .hero-text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 140%;
+
+    }
+
+    .hero-batton {
+        padding: 16px 40px;
+    }
+
+    .hero-link {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+    }
+
+    /*=========/section Hero======== */
+    /* =========section About Us======= */
+    .about-us-section {
+        margin-top: 150px;
+    }
+
+    .about-us-container-title {
+        padding: 50px 136px 50px 32px;
+    }
+
+    .about-us-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        margin-bottom: 50px;
+    }
+
+    .about-us-container-text {
+        margin-right: 147px;
+    }
+
+    .about-us-text {
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+    }
+
+    .about-us-text-litel {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 115%;
+        letter-spacing: -0.02em;
+    }
+
+    /* =========/section About Us======= */
+    /* ======section Our Yachts===== */
+    .our-yachts-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        padding-left: 56px;
+        padding-right: 56px;
+        margin-top: 150px;
+        margin-bottom: 75px;
+    }
+
+    .our-yachts-item-benitti {
+        display: flex;
+    }
+
+    .our-yachts-menu {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .our-yachts-item-arrow,
+    .our-yachts-item-benitti {
+        width: calc((100% - 32px) / 2);
+    }
+
+    .our-yachts-item-arrow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+
+    }
+
+    .our-yachts-arrow-img {
+        width: 100%;
+        border-radius: 24px;
+        border-radius: 24px;
+    }
+
+    .our-yachts-item-benitti {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: #FBFBFB;
+
+        border-radius: 24px;
+        padding: 16px;
+        margin-top: 40px;
+    }
+
+    .our-yachts-item-benitti-picture {
+        margin-bottom: 32px;
+
+    }
+
+    .our-yachts-item-benitti-img {
+        width: 100%;
+        border-radius: 24px;
+    }
+
+    .our-yahts-tablet-colum-name {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.04em;
+    }
+
+    .our-yahts-tablet-colum-class {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 118%;
+        letter-spacing: 0.03em;
+
+    }
+
+    .our-yachts-btn {
+        margin-top: 50px;
+    }
+
+    /* ======/section Our Yachts===== */
+    /* =====section-Advantages==== */
+    .advantages-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+        margin-bottom: 32px;
+    }
+
+    .advantages-text-number {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: -0.05em;
+    }
+
+    .advantages-text {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 115%;
+        letter-spacing: -0.02em;
+        opacity: 0.8;
+    }
+
+    /* =====/section-Advantages====*/
+    /* ========section Rent A Yacht===== */
+
+    .rent-a-yuacht-section {
+        margin-top: 150px;
+    }
+
+    .rent-yuaht-container {
+        padding-left: 116px;
+        padding-right: 116px;
+
+    }
+
+    .rent-yuaht-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        margin-bottom: 50px;
+    }
+
+    .contact-form-input,
+    .rent-yuaht-texterea {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.3;
+
+    }
+
+    .reviev-form-submit-btn {
+        margin-top: 50px;
+    }
+
+
+
+    /* ========/section Rent A Yacht===== */
+    /* =======section Reviews====== */
+    .coreviews-section {
+        margin-top: 150px;
+    }
+
+    .reviews-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        margin-bottom: 25px;
+    }
+
+    .reviews-desk {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.3;
+        letter-spacing: -0.02em;
+        padding-left: 66.5px;
+        padding-right: 66.5px;
+    }
+
+    .reviews-item-victoria {
+        display: flex;
+    }
+
+    .reviews-item-victoria {
+        border-radius: 24px;
+        background: var(--primary-text-color);
+        padding: 32px 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews-menu {
+        margin-top: 75px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .reviews-item-john,
+    .reviews-item-victoria {
+        width: calc((100% - 32px) / 2);
+    }
+
+    /* =======/section Reviews======  */
+    /* ======footer====== */
+    .container-footer-one {
+        margin-top: 150px;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 99px;
+    }
+
+    .footer-nav {
+        display: flex;
+        margin-top: 0%;
+
+    }
+
+    .logo-footer {
+        color: #FBFBFB;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+    }
+
+    .footer-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        column-gap: 4px;
+    }
+
+    .footer-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 91px;
+        height: 40px;
+        padding: 15px 24px;
+        margin: 0;
+        border-radius: 8px;
+        background: rgba(27, 65, 75, 0.50);
+
+    }
+
+    .footer-item:hover,
+    .footer-item:focus {
+        background: var(--primary-text-color);
+        color: var(--accent-color);
+    }
+
+    .footer-link {
+        color: #FBFBFB;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 130%;
+        text-transform: uppercase;
+    }
+
+    .footer-link:hover,
+    .footer-link:focus {
+        color: var(--accent-color);
+    }
+
+    .footer-social-menu {
+        column-gap: 8px;
+    }
+
+    .footer-social-menu {
+        fill: var(--primary-text-color);
+    }
+
+    .footer-text {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .footer-text-data,
+    .privasy-police {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 118%;
+        letter-spacing: 0.03em;
+    }
+
+    .privasy-police
+    /* ======/footer====== */
+}
+
+/* ======/TABLET===== */

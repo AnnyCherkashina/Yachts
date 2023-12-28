@@ -129,7 +129,7 @@
                             srcset="./images/our-yahts/our-yachts-arrow/our-yahts-desctop-min.jpg 1x, ./images/our-yahts/our-yachts-arrow/our-yahts-desctop-min@2x.jpg 2x"
                             media="(min-width: 1280px)" />
                         <source
-                            srcset="./images/our-yahts/our-yachts-arrow/our-yahts-tablet.jpg 1x, ./images/our-yahts/our-yachts-arrow/our-yahts-tablet.jpg 2x"
+                            srcset="./images/our-yahts/our-yachts-arrow/our-yahts-tablet.jpg 1x, ./images/our-yahts/our-yachts-arrow/our-yahts-tablet@2x.jpg 2x"
                             media="(min-width:768px)" />
                         <source
                             srcset="./images/our-yahts/our-yachts-arrow/our-yahts-mobile.jpg 1x, ./images/our-yahts/our-yachts-arrow/our-yahts-mobile@2x.jpg 2x"
@@ -182,28 +182,28 @@
                     </picture>
                     <table class="our-yachts-item-benitti-table">
                         <tr class="our-yahts-line">
-                            <td>BENETTI OASIS 40M BO122</td>
-                            <td>LUXURY YAHTS</td>
+                            <td class="our-yahts-tablet-colum-name">BENETTI OASIS 40M BO122</td>
+                            <td class="our-yahts-tablet-colum-class">LUXURY YAHTS</td>
                         </tr>
                         <tr class="our-yahts-line">
-                            <td>LENGTH</td>
-                            <td>41m (133ft)</td>
+                            <td class="our-yahts-tablet-one">LENGTH</td>
+                            <td class="our-yahts-tablet-two">41m (133ft)</td>
                         </tr>
                         <tr class="our-yahts-line">
-                            <td>SHIPYARD</td>
-                            <td>Benetti</td>
+                            <td class="our-yahts-tablet-one">SHIPYARD</td>
+                            <td class="our-yahts-tablet-two">Benetti</td>
                         </tr>
                         <tr class="our-yahts-line">
-                            <td>BUILT</td>
-                            <td>2025</td>
+                            <td class="our-yahts-tablet-one">BUILT</td>
+                            <td class="our-yahts-tablet-two">2025</td>
                         </tr>
                         <tr class="our-yahts-line">
-                            <td>GUESTS</td>
-                            <td>10 in 5 cabins</td>
+                            <td class="our-yahts-tablet-one">GUESTS</td>
+                            <td class="our-yahts-tablet-two">10 in 5 cabins</td>
                         </tr>
                         <tr class="our-yahts-line">
-                            <td>PRICE</td>
-                            <td>€23,210,000</td>
+                            <td class="our-yahts-tablet-one">PRICE</td>
+                            <td class="our-yahts-tablet-two">€23,210,000</td>
                         </tr>
                     </table>
                 </li>
@@ -327,7 +327,8 @@
                             <button class="reviev-form-submit-btn" type="submit">Send</button>
                         </form>
                     </div>
-                    <picture>
+
+                    <picture class="picture-rent-yacht">
                         <source
                             srcset="./images/rent-a-yuacht/rent-yuacht-desctop.jpg 1x, ./images/rent-a-yuacht/rent-yuacht-desctop@2x.jpg 2x"
                             media="(min-width:1440px)" />
@@ -335,7 +336,7 @@
                             srcset="./images/rent-a-yuacht/rent-yuacht-desctop-min.jpg 1x, ./images/rent-a-yuacht/rent-yuacht-desctop-min@2x.jpg 2x"
                             media="(min-width: 1280px)" />
                         <source
-                            srcset="./images/rent-a-yuacht/rent-yuacht-tablet.jpg.jpg 1x, ./images/rent-a-yuacht/rent-yuacht-tablet@2x.jpg 2x"
+                            srcset="./images/rent-a-yuacht/rent-yuacht-tablet.jpg 1x, ./images/rent-a-yuacht/rent-yuacht-tablet@2x.jpg 2x"
                             media="(min-width: 768px)" />
                         <source
                             srcset="./images/rent-a-yuacht/rent-yuacht-mobile.jpg 1x, ./images/rent-a-yuacht/rent-yuacht-mobile@2x.jpg 2x"
@@ -343,6 +344,7 @@
                         <img class="rent-yahts-img" src="./images/rent-a-yuacht/rent-yuacht-mobile.jpg"
                             alt="rent a yuacht">
                     </picture>
+
                 </div>
 
             </div>
@@ -441,7 +443,7 @@
                 <ul class="footer-social-menu list">
                     <li class="footer-social-item">
                         <a class="footer-social-link link" href="">
-                            <svg class="svg-social-footer" width="24" height="24">
+                            <svg class="footer-social-menu" width="24" height="24">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
@@ -485,8 +487,8 @@
                 </svg>
             </button>
         </div>
-        <div class="">
-            <nav class="naigation-mobile-menu">
+        <div class="menu-content">
+            <nav class="naigation-mobile">
                 <ul class="novigation-mobile-menu list">
                     <li class="novigation-mobile-item">
                         <a class="novigation-mobile-link link" href="">About</a>
@@ -498,8 +500,9 @@
                         <a class="novigation-mobile-link link" href="">Reviews</a>
                     </li>
                 </ul>
-
-            </nav>
+        </div>
+        </nav>
+        <div class="social-icons-container">
             <ul class="mobile-social-menu list">
                 <li class="mobile-social-item">
                     <a class="social-link-mobile-menu" href="">
@@ -526,10 +529,12 @@
 
                 </li>
             </ul>
-
         </div>
 
+
     </div>
+
+
     <!-- ====/Mobile-menu==== -->
     <script src="./js/modal.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
