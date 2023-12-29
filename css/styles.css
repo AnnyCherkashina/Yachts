@@ -1299,3 +1299,216 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
 }
 
 /* ======/TABLET===== */
+/* ======DESKTOP1280===== */
+@media screen and (min-width: 1280px) {
+
+    /*=====  header desctop1280===*/
+    .header {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    /*===== / header desctop1280===*/
+    /* =====section Hero-desktop1280===== */
+    .hero-section {
+        margin-top: 155px;
+
+    }
+
+    .hero-title {
+        padding-left: 113px;
+        padding-right: 113px;
+        font-size: 80px;
+        font-weight: 500;
+        line-height: 80px;
+        letter-spacing: -0.02em;
+    }
+
+    /* ===== / section Hero-desktop1280===== */
+    /* =====section About Us-desktop1280====== */
+    .about-us-section {
+        margin-top: 180px;
+    }
+
+    .about-us-container-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 50px 50px;
+    }
+
+    .about-us-title {
+        width: 537px;
+        margin-right: 189px;
+
+    }
+
+    .about-us-container-text {
+        width: 354px;
+
+    }
+
+    .about-us-images {
+        margin-top: 70px;
+    }
+
+    /* ===== / section About Us-desktop1280====== */
+    /* ======section Our Yachts-desktop1280====== */
+
+    .our-yachts-item-bella-anna {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: #FBFBFB;
+
+        border-radius: 24px;
+        padding: 16px;
+        margin-top: 40px;
+    }
+
+    .our-yachts-item-bella-anna-picture {
+        margin-bottom: 32px;
+
+    }
+
+    .our-yachts-item-bella-anna-img {
+        width: 100%;
+        border-radius: 24px;
+    }
+
+    .our-yachts-menu {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 25px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .our-yachts-item-arrow,
+    .our-yachts-item-benitti,
+    .our-yachts-item-bella-anna {
+        width: calc((100% - 50px) / 3);
+    }
+
+    /* ====== / section Our Yachts-desktop1280====== */
+    /* ========section-Advantages-desktop1280====== */
+    .advantages-container {
+        display: flex;
+
+        align-items: stretch;
+
+    }
+
+    .advantages-menu {
+        margin-right: 32px;
+        /* flex: 1; */
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .advantages-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ======== / section-Advantages-desktop1280====== */
+    /* ========section Rent A Yacht-desctop1280====== */
+    .rent-yuaht-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+
+    .img-customers {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .contact-form-input {
+        width: 472px;
+
+    }
+
+    .rent-yuaht-container-form {
+        margin-left: 50px;
+    }
+
+    /* ========section Rent A Yacht-desctop1280====== */
+
+    /* =====section Reviews-desctop1280======== */
+    .reviews-item--ihor {
+        display: flex;
+    }
+
+    .reviews-title {
+        padding-left: 136px;
+        padding-right: 136px;
+    }
+
+    .reviews-desk {
+        padding-left: 276px;
+        padding-right: 276px;
+    }
+
+    .img-customers {
+        width: 56px;
+        height: 56px;
+    }
+
+    .reviews-item--ihor {
+        border-radius: 24px;
+        background: var(--primary-text-color);
+        padding: 32px 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews-menu {
+        margin-top: 75px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+    }
+
+    .reviews-item-john,
+    .reviews-item-victoria,
+    .reviews-item--ihor {
+        width: calc((100% - 52px) / 3);
+    }
+
+    /* ===== / section Reviews-desctop1280======== */
+    /* ========footer-desktop1280===== */
+    .footer-container {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .footer-text {
+        padding-left: 269px;
+        padding-right: 269px;
+    }
+
+    /* ======== / footer-desktop1280===== */
+
+}
+
+/* ======/DESKTOP1280===== */
+/* ======DESKTOP1440===== */
+@media screen and (min-width: 1440px) {
+
+    /* ====section About Us-desktop1440==== */
+    .about-us-title {
+        margin-right: 299px;
+    }
+
+    /* ==== / section About Us-desktop1440==== */
+
+
+}
+
+/* ====== / DESKTOP1440===== */
